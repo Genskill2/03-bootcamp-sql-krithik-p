@@ -20,5 +20,5 @@ INSERT INTO books_subjects(book,subject)VALUES((SELECT id FROM books WHERE title
 INSERT INTO books_subjects(book,subject)VALUES((SELECT id FROM books WHERE title='Atomic Habits'),(SELECT id FROM subjects WHERE name='Psychology'));
 INSERT INTO books_subjects(book,subject)VALUES((SELECT id FROM books WHERE title='The City and The City'),(SELECT id FROM subjects WHERE name='Science Fiction'));
 INSERT INTO books_subjects(book,subject)VALUES((SELECT id FROM books WHERE title='The City and The City'),(SELECT id FROM subjects WHERE name='Politics'));
-INSERT INTO books_subjects(book,subject)VALUES((SELECT id FROM books WHERE title='The City and The City'),(SELECT id FROM subjects WHERE name='Politics'));
-INSERT INTO books_subjects(book,subject)VALUES((SELECT id FROM books WHERE title='The City and The City'),(SELECT id FROM subjects WHERE name='History'));
+INSERT INTO books_subjects(book,subject)VALUES((SELECT id FROM books WHERE title='The Great War for Civilisation'),(SELECT id FROM subjects WHERE name='Politics'));
+INSERT INTO books_subjects(book,subject)VALUES((SELECT id FROM books WHERE title='The Great War for Civilisation'),(SELECT id FROM subjects WHERE name='History'));
